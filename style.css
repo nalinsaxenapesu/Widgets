@@ -1,0 +1,97 @@
+html {
+  scroll-behavior: smooth;
+}
+body{
+  background-color: #FFD8A9
+  }
+div{
+  width: 600px;
+
+  margin: auto;
+}
+
+h1{
+ color: #111; font-family: 'Helvetica Neue', sans-serif; font-size: 75px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center;
+}
+
+.one{
+  background-color: #F94892;
+}
+
+.two{
+  background-color: #FF7F3F;
+}
+
+.three{
+  background-color: #FBDF07;
+}
+
+.four{
+  background-color: #89CFFD;
+}
+
+.five{
+  background-color: #B4FF9F;
+}
+
+button {
+  color: #ffffff;
+  background-color: #2d63c8;
+  font-size: 19px;
+  border: 1px solid #2d63c8;
+  padding: 15px 50px;
+  animation: wiggle 2s linear infinite;
+  cursor: pointer
+}
+button:hover {
+  color: #0d0d0d;
+  background-color: #fcfcfc;
+}
+
+
+
+/* Keyframes */
+@keyframes wiggle {
+  0%, 7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
+  }
+}
+.down{
+  position: fixed;
+
+  top:20px;
+  left:0px;
+}
+
+.top{
+  position: fixed;
+  display: none;
+  bottom: 20px;
+  right:0px;
+}
+
+.show{
+  display: block;
+}
+
+.hide{
+  display: none;
+}
